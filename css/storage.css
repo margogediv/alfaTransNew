@@ -1,14 +1,14 @@
 /* Section-1 */
 .banner {
     margin-top: 100px;
-    height: 941px;
+    height: auto;
     position: relative;
 }
 
 .banner-img-storage,
 .banner-img-services{
     width: 100%;
-    /*height: 941px;*/
+    height: auto;
     position: absolute;
     left: 0;
 }

@@ -26,10 +26,15 @@
         display: flex;
     }
 
-    .banner-text-storage,
-    .banner-text-services {
+    .banner-text-storage {
         order: 1;
         height: 283px;
+        position: static;
+    }
+
+    .banner-text-services {
+        order: 1;
+        height: auto;
         position: static;
     }
 
