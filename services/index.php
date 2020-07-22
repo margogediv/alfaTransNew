@@ -52,32 +52,25 @@
         <div class="section screen section-1 banner">
             <div class="banner-img-storage">
 
-                <img id="banner-img-home" class="photo-style" src="/img/storage/img-content.png?v=1"
+                <img id="banner-img-home" class="photo-style" src="/img/storage/services/img-content-min.png?v=1"
                      style="display: none" alt="">
-                <img class="photo-style" data-type="tablet" src="/img/storage/img-content-tablet.png?v=1"
+                <img class="photo-style" data-type="tablet" src="/img/storage/services/img-content-tablet-min.png?v=1"
                      alt="">
-                <img class="photo-style" data-type="mobile" src="/img/storage/img-content-mobile.png?v=1"
+                <img class="photo-style" data-type="mobile" src="/img/storage/services/img-content-mobile-min.png?v=1"
                      alt="">
             </div>
             <div class="banner-text-storage">
                 <div class="text-container-storage">
                     <h1 class="banner-title">
-                        <span class="text-blue-storage">Ответственное хранение</span><br data-type="mobile">
+                        <span class="text-blue-storage">Услуги логистического комплекса Альфа Транс</span><br data-type="mobile">
                     </h1>
-                    <span class="banner-subtitle">
-                            <p class="subtitle-bold">Склад ответственного хранения<br> ООО «Альфа Транс Безопасность»</p>
-                            предлагает клиентам ответственное хранение товаров от 1 м2 или 1 коробки<br> сроком от 1 дня в Смоленской области.
-                        </span>
+                    <span class="banner-subtitle">Альфа Транс оказывает 5 основных услуг</span>
                     <button class="btn btn-red modal storage">Отправить заявку</button>
                 </div>
             </div>
         </div>
         <div class="section content-storage">
             <div id="services" class="section screen section-2">
-                <div class="section-label label-2">
-                    <span class="number">02</span>
-                    <span class="name">Услуги</span>
-                </div>
                 <div class="container">
                     <div class="owl-carousel slider-about">
 

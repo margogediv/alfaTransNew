@@ -1561,6 +1561,7 @@ a {
 
 /* section-7 */
 .section-7 {
+    padding-top: 200px;
     margin-bottom: 40px;
     position: relative;
 }
@@ -1572,17 +1573,17 @@ a {
     font-size: 44px;
     line-height: 160%;
     text-align: center;
-    color: #CA0503;
+    color: #167FC9;
 }
 
 .section-7 .sub-title {
     font-family: 'Comfortaa', sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 25px;
     line-height: 160%;
     text-align: center;
-    color: #CA0503;
+    color: #333333;
 }
 
 .section-7 .contacts {
@@ -1780,7 +1781,7 @@ iframe {
     font-size: 44px;
     line-height: 140%;
     text-align: center;
-    color: #CA0503;
+    color: #167FC9;
     margin-bottom: 70px;
 }
 

@@ -46,10 +46,6 @@
     <!-- Content -->
     <div class="content">
         <div id="contacts" class="section screen section-7">
-            <div class="section-label label-8">
-                <span class="number">08</span>
-                <span class="name">КОНТАКТЫ</span>
-            </div>
             <div class="container">
                 <h3>
                     Наши контакты<br>
