@@ -11,7 +11,8 @@
         margin-bottom: 0;
     }
 
-    .banner-img-storage {
+    .banner-img-storage,
+    .banner-img-services {
         order: 2;
         position: static;
         height: auto;
@@ -25,7 +26,8 @@
         display: flex;
     }
 
-    .banner-text-storage {
+    .banner-text-storage,
+    .banner-text-services {
         order: 1;
         height: 283px;
         position: static;
@@ -36,7 +38,8 @@
         font-weight: 500;
     }
 
-    .text-container-storage {
+    .text-container-storage,
+    .text-container-services {
         width: 100%;
         padding-left: 20px;
         padding-right: 20px;
@@ -46,6 +49,7 @@
         margin-top: 40px;
         position: static;
     }
+
 
     .banner-title {
         margin-top: 0;
@@ -117,9 +121,27 @@
         font-size: 16px;
     }
 
+    .banner-subtitle.services {
+        font-weight: 500;
+    }
+
     .banner-img-storage {
         margin-top: -80px;
         z-index: -1;
+    }
+
+    .banner-text-services {
+        height: 170px;
+    }
+
+    .text-container-services {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 20px;
+    }
+
+    .text-container-services .banner-title .banner-subtitle {
+        font-weight: 500;
     }
 
     .list-storage li {
@@ -142,6 +164,10 @@
         left: 0;
         margin: 0 15px;
         max-width: calc(100% - 30px);
+    }
+
+    .btn.services {
+        bottom: -18vw;
     }
 
     .text-content {
@@ -170,5 +196,9 @@
     .banner-img-storage {
         margin-top: -40px;
         z-index: -1;
+    }
+
+    .text-blue-storage.services {
+        font-size: 22px;
     }
 }

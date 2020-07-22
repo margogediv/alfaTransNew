@@ -5,7 +5,8 @@
     position: relative;
 }
 
-.banner-img-storage {
+.banner-img-storage,
+.banner-img-services{
     width: 100%;
     /*height: 941px;*/
     position: absolute;
@@ -13,14 +14,20 @@
 }
 
 .banner-img-storage img {
+      width: 100%;
+}
+
+.banner-img-services img {
     width: 100%;
 }
 
-.banner-text-storage {
+.banner-text-storage,
+.banner-text-services {
     width: 100%;
     height: 941px;
     position: relative;
 }
+
 
 .text-container-storage {
     display: flex;
