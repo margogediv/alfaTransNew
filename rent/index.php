@@ -52,11 +52,11 @@
         <div class="section screen section-1 banner">
             <div class="banner-img-rent">
 
-                <img id="banner-img-home" class="photo-style" src="/img/rent/img-content.png?v=1"
+                <img id="banner-img-home" class="photo-style" src="/img/rent/img-content-min.png?v=1"
                      style="display: none" alt="">
-                <img class="photo-style" data-type="tablet" src="/img/rent/img-content-tablet.png?v=1"
+                <img class="photo-style" data-type="tablet" src="/img/rent/img-content-tablet-min.png?v=1"
                      alt="">
-                <img class="photo-style" data-type="mobile" src="/img/rent/img-content-mobile.png?v=1"
+                <img class="photo-style" data-type="mobile" src="/img/rent/img-content-mobile-min.png?v=1"
                      alt="">
             </div>
             <div class="banner-text-rent">
@@ -204,10 +204,8 @@
                         </li>
                         <li>
                             <div class="text-content mb10">
-                                Чтобы снять склад в Смоленске – отправьте нам <span>заявку</span>, и мы свяжемся с Вами
-                                в
-                                течении
-                                <span>48 часов</span>.
+                                Чтобы снять склад в Смоленске – отправьте нам <span>заявку</span>, и мы свяжемся с Вами<br>
+                                в течении <span>48 часов</span>.
                             </div>
                         </li>
                     </ul>

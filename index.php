@@ -59,25 +59,7 @@
                         Вашу логистику!
                     </h1>
 
-                    <ul class="banner-list" style="display: none;">
-                        <li>
-                            <a class="link linkto" href="#" data-link="1">Ответственное хранение</a>
-                        </li>
-                        <li>
-                            <a class="link linkto" href="#" data-link="2">Складская обработка</a>
-                        </li>
-                        <li>
-                            <a class="link linkto" href="#" data-link="3">Операторство</a>
-                        </li>
-                        <li>
-                            <a class="link linkto" href="#" data-link="4">Консалтинг</a>
-                        </li>
-                        <li>
-                            <a class="link linkto" href="#" data-link="5">Система TopLog WMS</a>
-                        </li>
-                    </ul>
-
-                    <button class="btn btn-red modal" style="display: none;">Отправить заявку</button>
+                    <button class="btn btn-red modal" >Отправить заявку</button>
                 </div>
             </div>
             <div class="banner-img">

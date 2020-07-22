@@ -638,8 +638,13 @@ a {
     margin-left: calc((100% - 1240px) / 2);
 }
 
+.text-container-rent .banner-title {
+    margin-bottom: 0;
+}
+
 .banner-title {
     margin-top: 141px;
+    margin-bottom: 70px;
     font-family: 'Comfortaa', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -1583,7 +1588,7 @@ a {
     font-size: 34px;
     line-height: 160%;
     text-align: center;
-    color: #333333;
+    color: #167FC9;
 }
 
 .section-7 .contacts {
@@ -1613,7 +1618,7 @@ a {
 }
 
 .section-7 .contacts .col-right {
-    width: 510px;
+    width: 876px;
 }
 
 /* section-8 */
