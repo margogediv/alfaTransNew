@@ -1159,6 +1159,14 @@ a {
     margin-top: 153px;
 }
 
+.banner-list {
+    display: none;
+}
+
+.section-icon .container .btn.non {
+    display: none;
+}
+
 .section-icon img {
     width: 150px;
     height: 150px;
@@ -2045,43 +2053,43 @@ iframe {
     right: calc((100% - 1240px) / 2 - 180px);
 }*/
 
-.section-label.label-2 {
+.section-label.label-3 {
     top: 170px;
     left: calc((100% - 1240px) / 2 - 180px);
 }
 
-.section-label.label-2 .number {
+.section-label.label-3 .number {
     color: #fff;
 }
 
-.section-label.label-2 .name {
+.section-label.label-3 .name {
     background: rgba(255, 255, 255, 0.75);
     border-radius: 3px;
     color: #CA0503;
     padding: 1px 2px 2px 4px;
 }
 
-.section-label.label-3 {
+.section-label.label-4 {
     top: 50px;
     right: calc((100% - 1240px) / 2 - 180px);
 }
 
-.section-label.label-4 {
+.section-label.label-5 {
     top: 20px;
     left: calc((100% - 1240px) / 2 - 180px);
 }
 
-.section-label.label-5 {
+.section-label.label-6 {
     top: 30px;
     right: calc((100% - 1240px) / 2 - 180px);
 }
 
-.section-label.label-6 {
+.section-label.label-7 {
     top: -70px;
     left: calc((100% - 1240px) / 2 - 180px);
 }
 
-.section-label.label-7 {
+.section-label.label-8 {
     top: -10px;
     right: calc((100% - 1240px) / 2 - 180px);
 }

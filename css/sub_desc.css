@@ -61,7 +61,8 @@
 
     .section-label .name {
         font-size: 14px;
-        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 40px;
     }
 
     .section-label::before {
@@ -79,7 +80,7 @@
     /* label-1 */
     .section-label.label-1 {
         top: 0;
-        left: 0;
+        right: 0;
     }
 
     /* label-2 */
