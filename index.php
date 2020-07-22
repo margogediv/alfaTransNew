@@ -95,139 +95,34 @@
             <div id="to-services"></div>
         </div>
 
-        <div id="services" class="section screen section-2">
-            <!--<div class="section-label label-2">
-                <span class="number">02</span>
-                <span class="name">Услуги</span>
-            </div>-->
+        <div class="section-icon">
             <div class="container">
-                <div class="owl-carousel slider-about">
-
-                    <div class="slide-about item-1">
-                        <div class="title">Ответственное хранение</div>
-                        <div class="picture">
-                            <img class="img" src="/img/slider-about/img-1.svg" alt="">
-                        </div>
-                        <div class="text-group">
-                            <ul class="list-icon rectangle no-icon">
-                                <li>
-                                    Качественная и количественная<br>
-                                    сохранность груза с момента приёма<br>
-                                    и до момента списания
-                                </li>
-                            </ul>
-                            <a href="/storage" class="btn btn-red slide-about__btn" style="">Узнать подробнее</a>
-                        </div>
-                    </div>
-
-                    <div class="slide-about item-2">
-                        <div class="title">Складская обработка</div>
-                        <div class="picture">
-                            <img class="img" src="/img/slider-about/img-2.svg" alt="">
-                        </div>
-                        <div class="text-group">
-                            <ul class="list-icon rectangle">
-                                <li>
-                                    Приём и размещение товара на склад
-                                </li>
-                                <li>
-                                    Комплектация грузов перед отгрузкой
-                                </li>
-                                <li>
-                                    Стикерование, маркировка и перемаркировка
-                                </li>
-                                <li>
-                                    Инвентаризация
-                                </li>
-                                <li>
-                                    Кроссдокинг
-                                </li>
-                                <li>
-                                    Оперативный документооборот
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="slide-about item-3">
-                        <div class="title">Операторство</div>
-                        <div class="picture">
-                            <img class="img" src="/img/slider-about/img-3.svg" alt="">
-                        </div>
-                        <div class="text-group">
-                            <ul class="list-icon rectangle">
-                                <li>
-                                    Обработка данных
-                                </li>
-                                <li>
-                                    Обмен данными с клиентом
-                                </li>
-                                <li>
-                                    Составление отчетов
-                                </li>
-                                <li>
-                                    Контроль персонала
-                                </li>
-                                <li>
-                                    Оптимизация логистики склада
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="slide-about item-4">
-                        <div class="title">Консалтинг</div>
-                        <div class="picture">
-                            <img class="img" src="/img/slider-about/img-4.svg" alt="">
-                        </div>
-                        <div class="text-group">
-                            <ul class="list-icon rectangle">
-                                <li>
-                                    Профессиональная помощь в оптимизации складского пространства
-                                </li>
-                                <li>
-                                    Автоматизация складских процессов
-                                </li>
-                                <li>
-                                    Управление складским пространством
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="slide-about item-5">
-                        <div class="title">Система TopLog WMS</div>
-                        <div class="picture">
-                            <img class="img" src="/img/slider-about/img-5.svg" alt="">
-                        </div>
-                        <div class="text-group">
-                            <ul class="list-icon rectangle">
-                                <li>
-                                    TopLog WMS разработано на платформе 1С:Предприятие 8
-                                </li>
-                                <li>
-                                    Поддержка стандартных складских операций
-                                </li>
-                                <li>
-                                    Настройка стратегий выполнения складских операций на уровне всего склада и в
-                                    разрезе характеристик номенклатуры
-                                </li>
-                                <li>
-                                    Возможность использования ТСД на всех бизнес-процессах склада
-                                </li>
-                                <li>
-                                    Настройка под отраслевую специфику склада (ответственное хранение, производство,
-                                    дистрибуция, фармацевтика, продукты питания)
-                                </li>
-                                <li>
-                                    Интеграция с корпоративными системами (SAP, Oracle, 1C 7.7, 1С 8, MS Dynamics…)
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                <ul class="icon-list">
+                    <li class="icon-list-iteam">
+                        <img src="/img/icon/icon-1.svg" alt="">
+                        <div class="icon-text">Ответственное хранение</div>
+                    </li>
+                    <li class="icon-list-iteam">
+                        <img src="/img/icon/icon-2.svg" alt="">
+                        <div class="icon-text">Складская обработка</div>
+                    </li>
+                    <li class="icon-list-iteam">
+                        <img src="/img/icon/icon-3.svg" alt="">
+                        <div class="icon-text">Операторство</div>
+                    </li>
+                    <li class="icon-list-iteam">
+                        <img src="/img/icon/icon-4.svg" alt="">
+                        <div class="icon-text">Консалтинг</div>
+                    </li>
+                    <li class="icon-list-iteam">
+                        <img src="/img/icon/icon-5.svg" alt="">
+                        <div class="icon-text">Система TopLog WMS</div>
+                    </li>
+                    <li class="icon-list-iteam list-btn">
+                        <button class="btn btn-red modal" style="">подробно об услугах</button>
+                    </li>
+                </ul>
             </div>
-            <div id="to-about"></div>
         </div>
 
         <div id="about" class="section screen section-2">

@@ -265,7 +265,7 @@
     }
 
     /* section 2 */
-    .section-2 {
+    /*.section-2 {
         margin-bottom: 10.416666666666668vw;
     }
 
@@ -308,7 +308,8 @@
 
     .section-2 .text-2-container .col-right .text {
         font-size: 0.9375vw;
-    }
+    }*/
+
 
     /* button */
     .btn {
