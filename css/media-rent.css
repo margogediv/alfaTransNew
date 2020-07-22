@@ -149,7 +149,8 @@
     .btn.rent {
         position: absolute;
         bottom: 8vw;
-        margin: 0;
+        left: 0;
+        margin: 0 15px;
     }
 
     /*.banner-subtitle {

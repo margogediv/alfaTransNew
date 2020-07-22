@@ -31,14 +31,6 @@
         position: static;
     }
 
-    .btn.storage {
-        padding: 12px 30px;
-        position: absolute;
-        bottom: 8vw;
-        left: 0;
-        margin: 0 15px;
-        max-width: calc(100% - 30px);
-    }
 
     .subtitle-bold {
         font-weight: 500;
@@ -125,6 +117,11 @@
         font-size: 16px;
     }
 
+    .banner-img-storage {
+        margin-top: -80px;
+        z-index: -1;
+    }
+
     .list-storage li {
         flex-wrap: wrap;
         justify-content: center;
@@ -136,6 +133,15 @@
 
     .btn {
         width: 100%;
+    }
+
+    .btn.storage {
+        padding: 12px 30px;
+        position: absolute;
+        bottom: 8vw;
+        left: 0;
+        margin: 0 15px;
+        max-width: calc(100% - 30px);
     }
 
     .text-content {
@@ -157,5 +163,12 @@
     .box-left {
         width: 100%;
         max-width: 330px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .banner-img-storage {
+        margin-top: -40px;
+        z-index: -1;
     }
 }
