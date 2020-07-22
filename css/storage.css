@@ -25,6 +25,15 @@
 .text-container-storage {
     display: flex;
     flex-wrap: wrap;
+    width: 430px;
+    position: absolute;
+    right: calc((100% - 1240px)/2 - 36px);
+    margin-top: 95px;
+}
+
+.text-container-services {
+    display: flex;
+    flex-wrap: wrap;
     width: 581px;
     position: absolute;
     right: calc((100% - 1240px)/2 - 20px);

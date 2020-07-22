@@ -60,7 +60,7 @@
                      alt="">
             </div>
             <div class="banner-text-storage">
-                <div class="text-container-storage">
+                <div class="text-container-services">
                     <h1 class="banner-title">
                         <span class="text-blue-storage">Услуги логистического комплекса Альфа Транс</span><br data-type="mobile">
                     </h1>
