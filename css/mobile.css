@@ -73,6 +73,7 @@
 
     .section-label .number {
         font-size: 54px;
+        margin-top: 0;
     }
 
     .section-label .name {
@@ -87,15 +88,32 @@
     }
 
     .section-label.label-1 {
+        width: 125px;
         margin-top: 5px;
     }
 
     .banner-title {
         margin-top: 79px;
+        margin-bottom: 0;
+        text-align: center;
     }
 
     .banner-list {
-        display: none !important;
+        display: block;
+    }
+
+    .banner-list li {
+        margin-bottom: 40px;
+    }
+
+    .section-icon .container .btn.non {
+        display: block;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .section-icon {
+        margin-bottom: 181px;
     }
 
     .banner-text .text-container {
@@ -112,8 +130,13 @@
         max-width: 330px;
     }
 
+    .icon-list {
+        display: none;
+    }
+
     #linkto-services {
-        position: absolute;
+        display: none;
+        /* position: absolute; */
         top: 0;
         left: 10px;
         font-family: 'Roboto', sans-serif;

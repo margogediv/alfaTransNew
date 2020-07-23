@@ -59,25 +59,7 @@
                         Вашу логистику!
                     </h1>
 
-                    <ul class="banner-list" style="display: none;">
-                        <li>
-                            <a class="link linkto" href="#" data-link="1">Ответственное хранение</a>
-                        </li>
-                        <li>
-                            <a class="link linkto" href="#" data-link="2">Складская обработка</a>
-                        </li>
-                        <li>
-                            <a class="link linkto" href="#" data-link="3">Операторство</a>
-                        </li>
-                        <li>
-                            <a class="link linkto" href="#" data-link="4">Консалтинг</a>
-                        </li>
-                        <li>
-                            <a class="link linkto" href="#" data-link="5">Система TopLog WMS</a>
-                        </li>
-                    </ul>
-
-                    <button class="btn btn-red modal" style="display: none;">Отправить заявку</button>
+                    <button class="btn btn-red modal" >Отправить заявку</button>
                 </div>
             </div>
             <div class="banner-img">
@@ -119,14 +101,33 @@
                         <div class="icon-text">Система TopLog WMS</div>
                     </li>
                     <li class="icon-list-iteam list-btn">
-                        <button class="btn btn-red modal" style="">подробно об услугах</button>
+                        <a href="/services" class="btn btn-red" style="">подробно об услугах</a>
                     </li>
                 </ul>
+                <ul class="banner-list">
+                    <li>
+                        <span>Ответственное хранение</span>
+                    </li>
+                    <li>
+                        <span>Складская обработка</span>
+                    </li>
+                    <li>
+                        <span>Операторство</span>
+                    </li>
+                    <li>
+                        <span>Консалтинг</span>
+                    </li>
+                    <li>
+                        <span>Система TopLog WMS</span>
+                    </li>
+                </ul>
+
+                <a href="/services" class="btn btn-red non">Подробно об услугах</a>
             </div>
         </div>
 
         <div id="about" class="section screen section-2">
-            <div class="section-label label-2">
+            <div class="section-label label-3">
                 <span class="number">02</span>
                 <span class="name">О НАС</span>
             </div>
@@ -223,7 +224,7 @@
         </div>
 
         <div id="advantages" class="section screen section-3">
-            <div class="section-label label-3">
+            <div class="section-label label-4">
                 <span class="number">03</span>
                 <span class="name">ПРЕИМУЩЕСТВА</span>
             </div>
@@ -310,7 +311,7 @@
         </div>
 
         <div class="section section-5 mb">
-            <div class="section-label label-4">
+            <div class="section-label label-5">
                 <span class="number">04</span>
                 <span class="name">КАК МЫ РАБОТАЕМ</span>
             </div>
@@ -389,7 +390,7 @@
         </div>
 
         <div class="section section-6">
-            <div class="section-label label-5">
+            <div class="section-label label-6">
                 <span class="number">05</span>
                 <span class="name">КЛИЕНТЫ И ПАРТНЕРЫ</span>
             </div>
@@ -413,7 +414,7 @@
         </div>
 
         <div id="gallery-section" class="section gallery mb">
-            <div class="section-label label-6">
+            <div class="section-label label-7">
                 <span class="number">06</span>
                 <span class="name">Галерея</span>
             </div>

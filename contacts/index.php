@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="/css/tablet.css">
     <link rel="stylesheet" href="/css/mobile.css">
     <link rel="stylesheet" href="/css/mobile-small.css">
+    <link rel="stylesheet" href="/css/contacts.css">
 
     <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
             async defer></script>
@@ -55,8 +56,7 @@
                 <div class="contacts">
                     <div class="col-right">
                         <a href="#" class="icon icon-map-blue address">
-                            Смоленская обл., Смоленский район,<br>
-                            д. Стабна, ул. Заозёрная, д. 35<br>
+                            Смоленская обл., Смоленский район, д. Стабна, ул. Заозёрная, д. 35<br>
                             214550, Россия
                         </a>
                         <br>

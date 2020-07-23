@@ -8,12 +8,13 @@
     <link rel="shortcut icon" href="/favicon.png"/>
     <link rel="apple-touch-icon" href="/favicon.png">
 
-    <title>Логистический комплекс Альфа Транс</title>
-    <meta name="apple-mobile-web-app-title" content="Логистический комплекс Альфа Транс">
-    <meta property="og:title" content="Логистический комплекс Альфа Транс"/>
+    <title>Ответственное хранение</title>
+    <meta name="apple-mobile-web-app-title" content="Ответственное хранение">
+    <meta property="og:title" content="Ответственное хранение"/>
 
-    <meta name="description" content="Мы оптимизируем Вашу логистику!"/>
-    <meta property="og:description" content="Мы оптимизируем Вашу логистику!"/>
+    <meta name="description" content="Склад ответственного хранения предлагает клиентам ответственное хранение товаров от 1 м2 или 1 коробки сроком от 1 дня в Смоленской области"/>
+    <meta property="og:description"
+          content="Склад ответственного хранения предлагает клиентам ответственное хранение товаров от 1 м2 или 1 коробки сроком от 1 дня в Смоленской области"/>
 
     <meta property="og:image" content="/logo.png"/>
     <meta property="og:site_name" content='Логистический комплекс Альфа Транс'>

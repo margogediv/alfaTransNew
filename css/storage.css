@@ -1,18 +1,23 @@
 /* Section-1 */
 .banner {
     margin-top: 100px;
-    height: 941px;
+    height: auto;
     position: relative;
 }
 
-.banner-img-storage {
+.banner-img-storage,
+.banner-img-services{
     width: 100%;
-    /*height: 941px;*/
+    height: auto;
     position: absolute;
     left: 0;
 }
 
 .banner-img-storage img {
+      width: 100%;
+}
+
+.banner-img-services img {
     width: 100%;
 }
 
@@ -21,6 +26,13 @@
     height: 941px;
     position: relative;
 }
+
+.banner-text-services {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
 
 .text-container-storage {
     display: flex;

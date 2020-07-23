@@ -32,7 +32,7 @@
                 </div>
             </div>
             <ul class="nav-items active">
-                <li class="nav-item dropdown page-active">
+                <li class="nav-item dropdown nav-item-page page-active" data-nav-page="/">
                     <div class="dropdown-title">
                         <a href="/" data-to="home">главная</a>
                         <div class="dropdown-select"></div>
@@ -56,16 +56,16 @@
                         </li>
                     </ul>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item nav-item-page" data-nav-page="/services/">
                     <a href="/services">услуги</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item nav-item-page" data-nav-page="/storage/">
                     <a href="/storage">ответственное хранение</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item nav-item-page" data-nav-page="/rent/">
                     <a href="/rent">аренда склада</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item nav-item-page" data-nav-page="/contacts/">
                     <a href="/contacts">контакты</a>
                 </li>
             </ul>

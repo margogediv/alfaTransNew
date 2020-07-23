@@ -1,0 +1,27 @@
+.banner {
+    height: 48.95833333333333vw;
+}
+
+.banner-text-services {
+    position: absolute;
+}
+
+@media screen and (min-width: 1921px) {
+    .banner-subtitle {
+        margin: 3.6458333333333335vw 0 2.083333333333333vw;
+        font-size: 0.9895833333333333vw;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .content-storage {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    .banner {
+        height: auto;
+    }
+}
+

@@ -221,6 +221,35 @@
     }
 
     /* Content */
+    .section-icon {
+        margin-bottom: 10.41666666666667vw;
+    }
+
+    .section-icon img{
+        width: 7.8125vw;
+        height: 7.8125vw;
+        margin-bottom: 1.5625vw;
+    }
+
+    .icon-list-iteam {
+        margin-top: 3.6458333333333335vw;
+    }
+
+    .icon-list-iteam {
+        margin-top: 3.6458333333333335vw;
+    }
+
+    .icon-text {
+        font-size: 0.9895833333333333vw;
+    }
+
+    .icon-text:before {
+        width: 1.3020833333333335vw;
+        height: 0.78125vw;
+        left: -2.083333333333333vw;
+        top: 0.4166666666666667vw;
+    }
+
     /* section 1 */
     .banner-text {
         height: 41.041666666667vw;
@@ -265,7 +294,7 @@
     }
 
     /* section 2 */
-    /*.section-2 {
+    .section-2 {
         margin-bottom: 10.416666666666668vw;
     }
 
@@ -308,9 +337,7 @@
 
     .section-2 .text-2-container .col-right .text {
         font-size: 0.9375vw;
-    }*/
-
-
+    }
     /* button */
     .btn {
         font-size: 1.0416666666667vw;
@@ -325,8 +352,8 @@
     }
 
     .section.banner.mb {
-        margin-bottom: 13.125vw;
-        margin-top: 5.2083333333333vw;
+        margin-bottom: 4.166666666666666vw;
+        margin-top: 5.208333333333334vw;
     }
 
     .slide-about .title {
@@ -624,6 +651,10 @@
         transform: translateX(calc(-150% - 0.833333333vw));
     }
 
+    #gallery-section {
+        margin-bottom: 5.2vw;
+    }
+
     /* section-7 */
     .section-7 {
         margin-bottom: 2.0833333333333vw;
@@ -886,7 +917,6 @@
     /*.section-label.label-2 {
         right: calc((100% - 64.583333333333vw) / 2 - 9.375vw);
     }*/
-
     .section-label.label-2 {
         top: 8.8541666666667vw;
         left: calc((100% - 64.583333333333vw) / 2 - 9.375vw);
@@ -909,17 +939,17 @@
 
     .section-label.label-5 {
         top: 1.5625vw;
-        right: calc((100% - 64.583333333333vw) / 2 - 9.375vw);
-    }
-
-    .section-label.label-6 {
-        top: -3.645833333vw;
         left: calc((100% - 64.583333333333vw) / 2 - 9.375vw);
     }
 
-    .section-label.label-7 {
-        top: -0.52083333333333vw;
+    .section-label.label-6 {
+        top: 1.5625vw;
         right: calc((100% - 64.583333333333vw) / 2 - 9.375vw);
+    }
+
+    .section-label.label-7 {
+        top: -3.6458333333333335vw;
+        left: calc((100% - 64.58333333333334vw) / 2 - 9.375vw);
     }
 
     #to-contacts {

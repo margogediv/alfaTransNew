@@ -1,0 +1,22 @@
+.section-7 {
+    padding-top: 140px;
+}
+
+@media screen and (max-width: 1921px) {
+    .section-7 {
+        padding-top: 7.291666666666667vw;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .section-7 {
+        padding-top: 0;
+        margin-top: 140px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .section-7.section.screen {
+        padding-top: 0;
+    }
+}

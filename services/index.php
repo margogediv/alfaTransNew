@@ -8,12 +8,12 @@
     <link rel="shortcut icon" href="/favicon.png"/>
     <link rel="apple-touch-icon" href="/favicon.png">
 
-    <title>Логистический комплекс Альфа Транс</title>
-    <meta name="apple-mobile-web-app-title" content="Логистический комплекс Альфа Транс">
-    <meta property="og:title" content="Логистический комплекс Альфа Транс"/>
+    <title>Услуги логистического комплекса Альфа Транс</title>
+    <meta name="apple-mobile-web-app-title" content="Услуги логистического комплекса Альфа Транс">
+    <meta property="og:title" content="Услуги логистического комплекса Альфа Транс"/>
 
-    <meta name="description" content="Мы оптимизируем Вашу логистику!"/>
-    <meta property="og:description" content="Мы оптимизируем Вашу логистику!"/>
+    <meta name="description" content="Альфа Транс оказывает 5 основных услуг"/>
+    <meta property="og:description" content="Альфа Транс оказывает 5 основных услуг"/>
 
     <meta property="og:image" content="/logo.png"/>
     <meta property="og:site_name" content='Логистический комплекс Альфа Транс'>
@@ -35,6 +35,7 @@
 
     <!--    storage page css -->
     <link rel="stylesheet" href="/css/storage.css">
+    <link rel="stylesheet" href="/css/services.css">
     <link rel="stylesheet" href="/css/media-storage.css">
 
     <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
@@ -50,7 +51,7 @@
     <!-- Content -->
     <div class="content">
         <div class="section screen section-1 banner">
-            <div class="banner-img-storage">
+            <div class="banner-img-services">
 
                 <img id="banner-img-home" class="photo-style" src="/img/storage/services/img-content-min.png?v=1"
                      style="display: none" alt="">
@@ -59,13 +60,13 @@
                 <img class="photo-style" data-type="mobile" src="/img/storage/services/img-content-mobile-min.png?v=1"
                      alt="">
             </div>
-            <div class="banner-text-storage">
+            <div class="banner-text-services">
                 <div class="text-container-services">
                     <h1 class="banner-title">
-                        <span class="text-blue-storage">Услуги логистического комплекса Альфа Транс</span><br data-type="mobile">
+                        <span class="text-blue-storage services">Услуги логистического комплекса Альфа Транс</span>
                     </h1>
-                    <span class="banner-subtitle">Альфа Транс оказывает 5 основных услуг</span>
-                    <button class="btn btn-red modal storage">Отправить заявку</button>
+                    <span class="banner-subtitle services">Альфа Транс оказывает 5 основных услуг</span>
+                    <button class="btn btn-red modal storage services">Отправить заявку</button>
                 </div>
             </div>
         </div>
@@ -87,7 +88,7 @@
                                         и до момента списания
                                     </li>
                                 </ul>
-                                <a href="/storage" class="btn btn-red slide-about__btn" style="">Узнать подробнее</a>
+                                <a href="/storage" class="btn btn-red slide-about__btn" style="">Узнать подробнее!</a>
                             </div>
                         </div>
 

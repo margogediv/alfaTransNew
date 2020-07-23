@@ -45,6 +45,10 @@ $(document).ready(function () {
         sliderMobile(true);
     }
 
+    let page = $('.header').attr('data-page');
+    $('.nav-item-page').removeClass('page-active');
+    $('.nav-item-page[data-nav-page="' + page + '"]').addClass('page-active');
+
     $('.linkto').on('click', function (e) {
         e.preventDefault();
         let slide = $(this).attr('data-link');
@@ -179,7 +183,7 @@ $(document).ready(function () {
 
         let page = $('.header').attr('data-page');
         console.log(page !== '/');
-        if(page !== '/') {
+        if (page !== '/') {
             location.href = '/' + $(this).attr('href');
             return;
         }
@@ -287,7 +291,7 @@ $(document).ready(function () {
             to_index = to_index - 2;
         }
 
-        galleryStep(items, to_index);
+        galleryStep(items, to_index, 'next');
     });
 
     $('#gallery-slider .prev').click(function () {
@@ -313,10 +317,10 @@ $(document).ready(function () {
                 to_index = from_index;
             }
         }
-        galleryStep(items, to_index);
+        galleryStep(items, to_index, 'prev');
     });
 
-    function galleryStep(items, to_index) {
+    function galleryStep(items, to_index, type) {
         if (!maxIndexGallery)
             return;
 
@@ -334,9 +338,20 @@ $(document).ready(function () {
             return;
 
         let first;
+        let slides = $('.gallery-slider .item'), maxSlideWidth = 0;
+        slides.each(function () {
+            if ($(this).width() > maxSlideWidth)
+                maxSlideWidth = $(this).width();
+        });
+
         for (i = 1; i <= countItem; i++) { // i = 1; i <= 7; i++
             first = $('#gallery-slider .item:nth-child(' + i + ') img:first-child');
-            first.fadeOut(1000);
+            // first.fadeOut(1000);
+            if (type === 'next')
+                first.animate({left: '-' + maxSlideWidth + 'px'}, "slow");
+            else
+                first.animate({right: '-' + maxSlideWidth + 'px'}, "slow");
+
             first.queue(function () {
                 $(this).remove();
                 queueItem++;
