@@ -729,6 +729,7 @@
         min-width: 30.598958333vw;
         min-height: 30.598958333vw;
         margin-right: 1.5625vw;
+        border-radius: 15px;
     }
 
     .gallery-slider .item:nth-child(7n + 2) {

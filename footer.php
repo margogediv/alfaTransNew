@@ -53,6 +53,8 @@
 <script src="/js/jquery.min.js"></script>
 <script src="/js/jquery-ui.min.js"></script>
 <script src="/js/owlCarousel/owl.carousel.min.js"></script>
+<script type="text/javascript" src="/js/fancybox/jquery.fancybox.min.js"></script>
+<link rel="stylesheet" href="/js/fancybox/jquery.fancybox.min.css">
 <script src="/js/app.js"></script>
 <script type="text/javascript">
     var onloadCallback = function () {
@@ -62,12 +64,5 @@
                 document.getElementById('submit').removeAttribute('disabled');
             }
         });
-
-        // grecaptcha.render('my-captha-2', {
-        //     'sitekey': '6LelA_kUAAAAABKvL6RWauDHVD4wWcAZz8lF_qgt',
-        //     'callback': function () {
-        //         document.getElementById('submit2').removeAttribute('disabled');
-        //     }
-        // });
     };
 </script>

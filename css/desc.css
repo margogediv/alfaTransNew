@@ -633,6 +633,7 @@
 
     .gallery-slider .item {
         margin-right: 0.78125vw;
+        border-radius: 1.0416666666666665vw;
     }
 
     .gallery-slider .item:nth-child(7n + 4) {

@@ -796,6 +796,7 @@
         min-width: 45vw;
         min-height: 45vw;
         margin-right: 0;
+        border-radius: 10px;
     }
 
     .gallery-slider .item:nth-child(7n + 1) {

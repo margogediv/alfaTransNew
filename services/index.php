@@ -199,7 +199,6 @@
                         </div>
                     </div>
                 </div>
-                <div id="to-about"></div>
             </div>
         </div>
     </div>

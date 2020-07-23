@@ -182,10 +182,9 @@ $(document).ready(function () {
         e.preventDefault();
 
         let page = $('.header').attr('data-page');
-        console.log(page !== '/');
         if (page !== '/') {
             location.href = '/' + $(this).attr('href');
-            return;
+            return true;
         }
 
         let id = $(this).attr('data-to');
@@ -262,7 +261,7 @@ $(document).ready(function () {
         items.forEach(item => {
             let html =
                 '<div class="item">' +
-                '<img src="' + item + '">' +
+                '<a data-fancybox="gallery" href="' + item + '"><img src="' + item + '"></a>' +
                 '</div>';
             gallery.append(html);
         });
@@ -330,7 +329,7 @@ $(document).ready(function () {
         items.forEach(src => {
             i++;
             $('#gallery-slider .items .item:nth-child(' + i + ')').append(
-                '<img src="' + src + '"/>'
+                '<a data-fancybox="gallery" href="' + src + '"><img src="' + src + '"/></a>'
             );
         });
 
@@ -345,12 +344,12 @@ $(document).ready(function () {
         });
 
         for (i = 1; i <= countItem; i++) { // i = 1; i <= 7; i++
-            first = $('#gallery-slider .item:nth-child(' + i + ') img:first-child');
+            first = $('#gallery-slider .item:nth-child(' + i + ') a:first-child');
             // first.fadeOut(1000);
             if (type === 'next')
-                first.animate({left: '-' + maxSlideWidth + 'px'}, "slow");
+                first.animate({left: '-' + maxSlideWidth + 'px', opacity: 0}, "slow");
             else
-                first.animate({right: '-' + maxSlideWidth + 'px'}, "slow");
+                first.animate({right: '-' + maxSlideWidth + 'px', opacity: 0}, "slow");
 
             first.queue(function () {
                 $(this).remove();
@@ -360,6 +359,9 @@ $(document).ready(function () {
             });
         }
     }
+
+    //fancybox gallery
+    $('[data-fancybox="gallery"]').fancybox();
 
     function getCountItemGallery() {
         return $('#gallery-slider .items img').length;

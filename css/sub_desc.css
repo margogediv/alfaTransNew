@@ -249,6 +249,11 @@
         margin-bottom: -26px;
     }
 
+    .section-label.label-5 .name {
+        margin-left: 5px;
+        margin-right: 0;
+    }
+
     #to-about {
         bottom: 20px;
     }

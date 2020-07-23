@@ -1,3 +1,66 @@
+@media screen and (min-width: 1921px) {
+    .banner-img-rent {
+        height: 49.010416667vw;
+    }
+
+    .banner-text-rent {
+        height: 49.010416667vw;
+    }
+
+    .text-blue-rent {
+        font-size: 2.2916666666666665vw;
+    }
+
+    .text-container-rent {
+        width: 24.375vw;
+        position: absolute;
+        right: calc((100% - 64.58333333333334vw) / 2 - 1.9791666666666665vw);
+        margin-top: 4.947916666666666vw;
+    }
+
+    .banner-subtitle {
+        margin: 3.90625vw 0 2.083333333333333vw;
+        font-size: 0.9895833333333333vw;
+    }
+
+    .ml80 {
+        margin-left: -4.947916666666666vw;
+    }
+
+    .text-content {
+        font-size: 1.0416666666666665vw;
+    }
+
+    .list-rent li img {
+        width: 9.114583333333332vw;
+    }
+
+    .subtitle {
+        margin-bottom: 0.5208333333333333vw;
+    }
+
+    .block-3 {
+        margin-left: calc((100% - 64.58333333333334vw) / 2 + 8.854166666666668vw);
+    }
+
+    .content-rent {
+        margin-top: 3.125vw;
+        margin-bottom: 6.25vw;
+    }
+
+    .mb30 {
+        margin-bottom: 1.5625vw;
+    }
+
+    .mb10 {
+        margin-bottom: 0.5208333333333333vw;
+    }
+
+    .container.rent {
+        max-width: 46.875vw;
+    }
+}
+
 @media screen and (max-width: 1260px) {
 
     .banner-img-rent {
@@ -81,7 +144,6 @@
     }
 
     /* Content-rent */
-
     .section.content-rent {
         margin-top: 44px;
         margin-bottom: 70px;
@@ -101,6 +163,7 @@
         margin-bottom: 40px;
     }
 }
+
 @media screen and (max-width: 767px) {
 
     .container.rent {
@@ -156,7 +219,6 @@
     /*.banner-subtitle {
         margin-bottom: 470px;
     }*/
-
     .text-content {
         font-size: 16px;
         margin-top: 30px;
@@ -204,10 +266,9 @@
 
 @media screen and (max-width: 359px) {
 
-  /*  .banner-subtitle {
-        margin-bottom: 400px;
-    }*/
-
+    /*  .banner-subtitle {
+          margin-bottom: 400px;
+      }*/
     .section.banner {
         margin-top: 90px;
     }

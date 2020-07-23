@@ -124,6 +124,7 @@
 
                 <a href="/services" class="btn btn-red non">Подробно об услугах</a>
             </div>
+            <div id="to-about"></div>
         </div>
 
         <div id="about" class="section screen section-2">

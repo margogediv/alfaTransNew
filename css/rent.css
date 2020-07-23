@@ -10,6 +10,10 @@
     left: 0;
 }
 
+.banner-img-rent img {
+    width: 100%;
+}
+
 .banner-text-rent {
     width: 100%;
     height: 941px;
@@ -81,11 +85,11 @@
 }
 
 .first-box {
-    margin-left: calc((100% - 1240px)/2 + 170px);
+    margin-left: 0;
 }
 
 .box {
-    margin-left: calc((100% - 1240px)/2 + 170px);
+    margin-left: 0;
 }
 
 .text-content {
@@ -133,4 +137,5 @@
 }
 .block-4 {
     margin-bottom: 80px;
+    margin-left: 0;
 }
